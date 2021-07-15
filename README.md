@@ -30,13 +30,13 @@ This will build two jars in the `build/libs` directory: a bundle fragment (in or
 
 1. Go to Apps
 2. Go to dotCMS Header App
-3. Go to the site you wan to configure
-4. Set a some name, for instance, "Security Headers"
+3. Go to the site you want to configure
+4. Set some name, for instance, "Security Headers"
 5. Add a header such as
 
 /*          Content-Security-Policy:default-src 'self' cdn.example.com;
 
 
 1. The first one is a pattern to catch all urls, you can change it to be more specific on filtering.
-2. Set the response header for this url pattern, the header are separated by ";". 
+2. Set the response headers for this url pattern, the headers are separated by ";". 
 The header name is separated by the header value by ":"
