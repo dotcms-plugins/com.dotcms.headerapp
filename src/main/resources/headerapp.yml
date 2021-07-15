@@ -1,0 +1,13 @@
+---
+name: "dotCMS Header App"
+description: "This App allows to add header to an url per site"
+iconUrl: "https://static.dotcms.com/assets/icons/apps/header.png"
+allowExtraParameters: true
+params:
+  name:
+    label: "App Name"
+    value: "Give a Name"
+    hidden: false
+    type: "STRING"
+    hint: "Just a name"
+    required: true
