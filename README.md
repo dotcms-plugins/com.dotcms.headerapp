@@ -39,4 +39,5 @@ This will build two jars in the `build/libs` directory: a bundle fragment (in or
 
 1. The first one is a pattern to catch all urls, you can change it to be more specific on filtering.
 2. Set the response headers for this url pattern, the headers are separated by ";". 
+
 The header name is separated by the header value by ":"
